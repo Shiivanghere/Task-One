@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .discount{
+            background-color:#F3F5F7;
+            width: 100%;
+            height: 40px;
+            display :flex;
+            position: relative;
+            align-items:center;
+            justify-content: center;
+            margin-top: -8px;
+            margin-left: -7px;
+            margin-right: -7px;
+            padding: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .icon{
+            margin-right:5px;
+        }
+        header{
+            display: grid ;
+            grid-template-columns: 4fr 4fr 4fr;
+        }
+        .second{
+            background-color: #FFFFFF;
+            display: flex;
+            height: 40px;
+            width: 1440px;
+            padding-left: 160px;
+            padding-right: 160px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            margin-right: -7px;
+            margin-left: -7px;
+            /* justify-content: space-between; */
+        }
+        .elegant{
+            font-weight: bold;
+            font-size: 30px;
+            background-color: white;
+            position: absolute;
+            margin-top: 10px;
+            left:200px;
+            top: 7px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        .home{
+            /* font-weight: bold; */
+            font-size: 15px;
+            font-weight: lighter;
+            background-color: #FFFFFF;
+            display: flex;
+            position: absolute;
+            left:610px;
+            justify-content: space-between;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .nav{
+            color: black;
+        }
+
+        a:hover{
+            color: blue;
+        }
+        section{
+            margin-top: 18px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .icons2{
+            position: absolute;
+            background-color: brown;
+            z-index: 9;
+            right:70px;
+            font-size: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="discount">
+        <span><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+            <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+            <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+          </svg>30% off storewide - LIMITED TIME !</span>
+          <pre> </pre>
+        <a href="#">Shop Now</a>
+        </div>
+    <header class="second">
+        <div class="elegant">3legant.</div>
+        <div class="home">
+            <span style="margin: 15px;"><a class="nav" href="#" alt="home">Home</a></span>
+            <span style="margin: 15px;"><a class="nav" href="#" alt="shop">Shop</a></span>
+            <span style="margin: 15px;"><a class="nav" href="#" alt="product">Product</a></span>
+            <span style="margin: 15px;"><a class="nav" href="#" alt="contact us">Contact Us</a></span>
+        </div>
+        <!-- ABHI ICONS LAGANE HAIN HEADER MEIN -->
+        <div class="icons2">
+           <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></span>
+           <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg></span>
+           <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+            <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+          </svg></span>
+           <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/>
+          </svg></span>
+        </div>
+        
+    
+    </header>
+    <section>
+        <div class="section">
+        <img src="SOFA1.jpg" alt="SOFA IMAGE" height="536px" width="1120px">
+        </div>
+    </section>
+</body>
+</html>
