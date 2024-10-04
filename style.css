@@ -1,0 +1,149 @@
+body{
+    background-color: royalblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+}
+
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+/* HEADER SECTION STARTS */
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,0.1);
+}
+/* HEADER ELEGENT LOGO */
+
+header .logo{
+    font-size: 3rem;
+    color: rgb(25,24,24);
+    font-weight: 900;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+/* HEADER NAVBAR HOME , SHOP , PRODUCT , CONTACT US */
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color: rgba(0,0,0,0.9);
+    font-weight: 500;
+}
+
+/* HEADER NAVBAR ICONS */
+
+header .icons a{
+    font-size: 3rem;
+    color: rgb(25, 24, 24);
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    font-size: 3rem;
+    color:  rgba(25, 24, 24 , 0.5);
+    margin-left: 1.5rem;
+}
+
+/* INPUT TAG IN HEADER */
+
+header #toggle{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: rgb(25, 24, 24) ;
+    border: 0.1rem solid rgba(0,0,0,0.3);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* RESPONSIVENESS FOR OUR HEADER */
+
+@media (max-width:991px){
+    
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(236, 231, 231);
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+        
+    }
+
+    header #toggler:checked~ .navbar{
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);  /* NOTE - KEEP IN MIND TO STUDY ABOUT THIS PROPERTY IN DEPTH , DHANG SE SAMAJH NHI AYI HAI YE */ 
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background-color: white;
+        border: 1rem solid rgba(0,0,0,0.1);
+        display: block;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size:50%;
+
+    }
+}
+
+/* HEADER SECTION GETS COMPLETED HERE .
+
+#PROBLEM 1 - THREE LINES BUTTON IS NOT WORKING WHEN CLICKED OR UNCLICKED 
+#PROBLEM 2 - ICONS DOES NOT GO IN THE HAMBURGER MENU 
+#PROBLEM 3 - SIGN IN BUTTON IS NOT ADDED IN HABURGER
+#PROBLEM 4 - SOCIAL MEDIA SYMBOLS ARE NOT ADDED IN THE HAMBURGER MENU YET
+#PROBLEM 5 - SEARCH BAR HAS NOT BEEN ADDED TO IN THE HAMBURGER MENU
+#PROBLEM 6 - DROP DOWN MENU IS NOT YET ADDED FOR SHOP AND PRODUCT OPTION
+#PROBLEM 7 - DISCOUNT DISPLAY IS NOT DONE WELL YET 
+
+*/
