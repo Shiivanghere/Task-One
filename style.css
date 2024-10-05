@@ -288,7 +288,7 @@ THINGS LEFT ARE -
 }
 
 .largeheading{
-    font-size: xx-large;
+    font-size: 5rem;
     font-weight: bold;
     margin: 0;
 }
@@ -309,4 +309,121 @@ THINGS LEFT ARE -
     font-weight: bold;
 }
 
+@media (max-width:375px){
+    .texthold{
+        display: block;
+    }
+}
+
 /* HEADER AND PARA STYLING ENDS HERE */
+
+/* PRODUCT SECTION STYLING STARTS HERE */
+
+.ourproducts{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.product{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.product img{
+    width: 100%;
+    height: 40rem;
+    width: 40rem;
+    background-color: rgb(236, 235, 235);
+}
+
+.written{
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: black;
+}
+
+.product p{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: black;
+}
+
+@media (max-width:1000px){
+    .ourproducts{
+        display: block;
+    }
+}
+
+/* PRODUCT CATEGORY STYLING ENDS HERE */
+
+
+/* CHANGING THE APPEARANCE OF SCROLL BAR */
+
+
+/* WebKit Browsers */
+
+
+::-webkit-scrollbar {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 1rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(236, 235, 235);
+  }
+
+
+/* APPEARANCE OF SCROLL BAR CHANGED */
+
+
+/* HORIZONTAL SCROLL BAR STYLING FOR NEW ARRIVALS STARTS HERE */
+
+
+.newarrivalsection{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+.imageholder{
+    height: 40rem;
+    width: 30rem;
+    background-color: white    
+}
+
+.image{
+    width: 100%;
+    height: 80%;
+}
+.button{
+    width: 80%;
+    margin: 2rem;
+    height: 3rem;
+    color: azure;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.priceholder{
+    background-color: rgb(236, 235, 235);
+    font-size: 2rem;
+    margin-bottom:1rem ;
+    text-align: center;
+}
+
+.moneysave{
+    text-decoration: line-through;
+    font-style: oblique;
+}
