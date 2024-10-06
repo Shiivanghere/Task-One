@@ -28,7 +28,6 @@
         transition: 0.5s;
       }
       /* SHOP NOW OFFER SECTION STYLING ENDS HERE  */
-
     </style>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -56,11 +55,12 @@
           />
           <path
             d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"
-          />
-          </svg>30% off storewide -- LIMITED TIME !</span
+          /></svg>30% off storewide -- LIMITED TIME !</span
       >
       <pre></pre>
-      <a href="#" class="offer">Shop Now</a>
+      <a href="#" class="offer"
+        >Shop Now <i class="fa-solid fa-arrow-right"></i
+      ></a>
     </div>
 
     <!-- HEADER SECTION STARTS -->
@@ -68,12 +68,12 @@
     <header>
       <!-- INPUT CHECKBOX TYPE AND TOGGLER HTML-->
 
-      <input type="checkbox" id="toggle" />
+      <input type="checkbox" id="toggle" class="toggle" />
       <label for="toggle" class="fa-solid fa-bars"></label>
 
       <a href="#" class="logo">3legant.</a>
 
-      <nav class="navbar">
+      <nav class="navbar" style="width: 50%; padding: 5%">
         <a href="#home">Home</a>
         <a href="#shop">Shop</a>
         <a href="#product">Product</a>
@@ -123,7 +123,7 @@
       </h1>
       <p class="para">
         <span class="firstword">3legant</span> is a gift and decorations store
-        based in HCMC , Vietnam . Est since 2019.
+        based in HCMC , <br />Vietnam . Est since 2019.
       </p>
     </div>
 
@@ -132,27 +132,23 @@
     <!-- PRODUCT CATEGORIES SECTION STARTS HERE -->
 
     <section class="ourproducts">
-      <div class="product">
-        <a href="#LIVINGROOM">
-          <img src="./product1.jpg" />
-          <h4 class="written">Living Room</h4>
-          <p>Shop Now</p>
-        </a>
-      </div>
-      <div class="product">
-        <a href="#BEDROOM">
-          <img src="./product2.jpg" />
-          <h4 class="written">Bedroom</h4>
-          <p>Shop Now</p>
-        </a>
-      </div>
-      <div class="product">
-        <a href="#KITCHEN" >
-          <img src="./product3.png"/>
-          <h4 class="written">Kitchen</h4>
-          <p>Shop Now</p>
-        </a>
-      </div>
+      <a class="product" href="#LIVINGROOM">
+        <img src="./product1.jpg" />
+        <h4 class="written">Living Room</h4>
+        <p>Shop Now</p>
+      </a>
+
+      <a class="product" href="#BEDROOM">
+        <img src="./product2.jpg" />
+        <h4 class="written">Bedroom</h4>
+        <p>Shop Now</p>
+      </a>
+
+      <a class="product" href="#KITCHEN">
+        <img src="./product3.png" />
+        <h4 class="written">Kitchen</h4>
+        <p>Shop Now</p>
+      </a>
     </section>
 
     <!-- PRODUCT CATEGORY ENDS HERE -->
@@ -161,115 +157,314 @@
 
     <div class="texthold">
       <h1 class="largeheading">New <br />Arrivals</h1>
-      <p class="para" style="text-decoration: underline; font-weight:bold;"><a class="offer" href="#moreproducts">More Products </a></p>
+      <p class="para" style="text-decoration: underline; font-weight: bold">
+        <a class="offer" href="#moreproducts"
+          >More Products <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </p>
     </div>
 
-      <!-- NEW ARRIVALS HEADING SECTION ENDS HERE -->
+    <!-- NEW ARRIVALS HEADING SECTION ENDS HERE -->
 
-      <!-- HORIZONTAL SCROLL BAR FOR NEW ARRIVALS STARTS HERE -->
+    <!-- HORIZONTAL SCROLL BAR FOR NEW ARRIVALS STARTS HERE -->
 
-      <section class="newarrivalsection">
-        <div class="outermost">
-            <div class="imageholder">
-                <img class="image" src="./new1.jpg">
-                <button class="button">Add to cart</button>
-            </div>
-            <div class="priceholder">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-                <h4>Cloudy Grey Sofa</h4>
-                <p>200$ -- <span class="moneysave">319$</span></p>
-            </div>
+    <section class="newarrivalsection">
+      <div class="outermost">
+        <div class="imageholder">
+          <img class="image" src="./new1.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-37%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
         </div>
-
-        <div class="outermost">
-            <div class="imageholder">
-                <img class="image" src="./new2.jpg">
-                <button class="button">Add to cart</button>
-            </div>
-            <div class="priceholder">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-                <h4>Single Seater Sofa</h4>
-                <p>199$ -- <span class="moneysave">299$</span></p>
-            </div>
+        <div class="priceholder">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Cloudy Grey Sofa</h4>
+          <p>200$ -- <span class="moneysave">319$</span></p>
         </div>
-
-        <div class="outermost">
-            <div class="imageholder">
-                <img class="image" src="./new6.jpg">
-                <button class="button">Add to cart</button>
-            </div>
-            <div class="priceholder">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-                <h4>Red Arm Chair</h4>
-                <p>150$ -- <span class="moneysave">249$</span></p>
-            </div>
-        </div>
-
-        <div class="outermost">
-            <div class="imageholder">
-                <img class="image" src="./new9.jpg">
-                <button class="button">Add to cart</button>
-            </div>
-            <div class="priceholder">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-                <h4>Bamboo Rocking Chair</h4>
-                <p>105$ -- <span class="moneysave">239$</span></p>
-            </div>
-        </div>
-
-        <div class="outermost">
-            <div class="imageholder">
-                <img class="image" src="./new8.jpg">
-                <button class="button">Add to cart</button>
-            </div>
-            <div class="priceholder">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-                <h4>Lamp</h4>
-                <p>49$ -- <span class="moneysave">99$</span></p>
-            </div>
-        </div>
-
-        <div class="outermost">
-          <div class="imageholder">
-              <img class="image" src="./new7.jpg">
-              <button class="button">Add to cart</button>
-          </div>
-          <div class="priceholder">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-              <h4>Wooden Basket</h4>
-              <p>10$ -- <span class="moneysave">25$</span></p>
-          </div>
       </div>
 
       <div class="outermost">
         <div class="imageholder">
-            <img class="image" src="./new11.jpg">
-            <button class="button">Add to cart</button>
+          <img class="image" src="./new2.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-33%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
         </div>
         <div class="priceholder">
-         <i class="fa-solid fa-star"></i>
-         <i class="fa-solid fa-star"></i>
-         <i class="fa-solid fa-star"></i>
-         <i class="fa-solid fa-star"></i>
-        <h4>Dressing Table</h4>
-        <p>199$ -- <span class="moneysave">299$</span></p>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Single Seater Sofa</h4>
+          <p>199$ -- <span class="moneysave">299$</span></p>
         </div>
-    </div>
+      </div>
+
+      <div class="outermost">
+        <div class="imageholder">
+          <img class="image" src="./new6.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-39%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
+        </div>
+        <div class="priceholder">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Red Arm Chair</h4>
+          <p>150$ -- <span class="moneysave">249$</span></p>
+        </div>
+      </div>
+
+      <div class="outermost">
+        <div class="imageholder">
+          <img class="image" src="./new9.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-56%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
+        </div>
+        <div class="priceholder">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Bamboo Rocking Chair</h4>
+          <p>105$ -- <span class="moneysave">239$</span></p>
+        </div>
+      </div>
+
+      <div class="outermost">
+        <div class="imageholder">
+          <img class="image" src="./new8.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-50%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
+        </div>
+        <div class="priceholder">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Lamp</h4>
+          <p>49$ -- <span class="moneysave">99$</span></p>
+        </div>
+      </div>
+
+      <div class="outermost">
+        <div class="imageholder">
+          <img class="image" src="./new7.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-60%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
+        </div>
+        <div class="priceholder">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Wooden Basket</h4>
+          <p>10$ -- <span class="moneysave">25$</span></p>
+        </div>
+      </div>
+
+      <div class="outermost">
+        <div class="imageholder">
+          <img class="image" src="./new11.jpg" />
+          <div class="new">NEW</div>
+          <div class="percentagediscount">-33%</div>
+          <div class="like"><i class="fa-regular fa-heart"></i></div>
+          <button class="button">Add to cart</button>
+        </div>
+        <div class="priceholder">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h4>Dressing Table</h4>
+          <p>199$ -- <span class="moneysave">299$</span></p>
+        </div>
+      </div>
     </section>
+
+    <!-- HORIZONTAL SCROLL BAR FOR NEW ARRIVALS ENDS HERE -->
+
+    <!-- SERVICES SECTION STARTS HERE -->
+
+    <section class="services">
+      <div class="service">
+        <i class="fa-solid fa-truck-fast"></i>
+        <p class="shipping">Free Shipping</p>
+        <p class="servicess">Orders above $200</p>
+      </div>
+      <div class="service">
+        <i class="fa-solid fa-money-bill"></i>
+        <p class="shipping">Money-back</p>
+        <p class="servicess">30 days guarantee</p>
+      </div>
+      <div class="service">
+        <i class="fa-solid fa-lock"></i>
+        <p class="shipping">Secure Payments</p>
+        <p class="servicess">Secured by Stripe</p>
+      </div>
+      <div class="service">
+        <i class="fa-solid fa-phone"></i>
+        <p class="shipping">24/7 Support</p>
+        <p class="servicess">Phone and Email support</p>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION ENDS HERE -->
+
+    <!-- OFFER SECTION STARTS HERE -->
+
+    <section class="offersnow">
+      <div class="box offerimages">
+        <img src="./offersnow.png" class="offerimage" />
+      </div>
+      <div class="box offertext">
+        <p class="sale">SALE UPTO 35% OFF</p>
+        <p class="hundreds">
+          HUNDREDS of <br />
+          new lower prices!
+        </p>
+        <p class="affordable">
+          It's more affordable than ever to give every <br />
+          room in your home a stylish makeover
+        </p>
+
+        <a href="#" class="offer shopnowoffer"
+          >Shop Now <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- OFFER SECTION ENDS HERE -->
+
+    <!-- ARTICLES HEADING SECTION STARTS HERE -->
+
+    <section class="articlesheader">
+      <div class="texthold">
+        <h1 class="largeheading">Articles</h1>
+        <p class="para">
+          <a href="#morearticles" class="offer" style="font-weight: bold">
+            More Articles <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ARTICLES HEADING SECTION ENDS HERE -->
+
+    <!-- ARTICLE SECTION STARTS HERE -->
+
+    <section class="ourproducts">
+      <div class="product">
+        <a href="#ARTICLE1">
+          <img src="./article1.jpg.jpg" />
+          <h4 class="written">7 ways to decor your home</h4>
+          <p style="font-weight: bold">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </a>
+      </div>
+      <div class="product">
+        <a href="#ARTICLE2">
+          <img src="./article1.jpg.jpg" />
+          <h4 class="written">Kitchen Organization</h4>
+          <p style="font-weight: bold">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </a>
+      </div>
+      <div class="product">
+        <a href="#ARTICLE3">
+          <img src="./article3.jpg.jpg" />
+          <h4 class="written">Decor your bedroom</h4>
+          <p style="font-weight: bold">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ARTICLE SECTION STARTS HERE -->
+
+    <!-- NEWSLETTER STARTS HERE -->
+    <section class="newsletter">
+      <div class="imageholder2">
+        <img src="./newsletter2.jpg" class="newsimage" />
+        <div class="join">Join Our Newsletter</div>
+        <div class="signupdeals">
+          Sign up for deals , new products and promotions
+        </div>
+        <span class="signup">
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Email Address" />
+        </span>
+        <button class="btn">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION ENDS HERE -->
+
+    <!-- FOOTER STARTS HERE AGAIN -->
+
+    <footer style="background-color: black">
+      <div class="one">
+        <div class="oneone">
+          <span style="color: white; font-weight: bold; font-size: 2rem"
+            >3legant.</span
+          >
+          <span style="color: rgb(148, 146, 146); font-size: 2rem">|</span>
+          <span style="color: rgb(148, 146, 146); font-size: 2rem"
+            >Gift & Decoration store</span
+          >
+        </div>
+        <div class="onetwo">
+          <span><a class="onetwolink" href="#home">Home</a></span>
+          <span><a class="onetwolink" href="#shop">Shop</a></span>
+          <span><a class="onetwolink" href="#product">Product</a></span>
+          <span><a class="onetwolink" href="#blog">Blog</a></span>
+          <span><a class="onetwolink" href="#contact">Contact Us</a></span>
+        </div>
+      </div>
+      <pre></pre>
+      <div class="two">
+        <div class="twoone">
+          <span style="color: rgb(148, 146, 146); font-size: 1rem"
+            >Copyright &copy; 2023 3legant.All rights reserved</span
+          >
+          <span
+            ><a class="privacyandterm" href="#privacypolicy"
+              >Privacy Policy</a
+            ></span
+          >
+          <span
+            ><a class="privacyandterm" href="#termsofuse">Terms of Use</a></span
+          >
+        </div>
+        <div class="twotwo">
+          <span
+            ><a class="socialmedia" href="#socials"
+              ><i class="fa-brands fa-instagram"></i></a
+          ></span>
+          <span
+            ><a class="socialmedia" href="#socials"
+              ><i class="fa-brands fa-facebook"></i></a
+          ></span>
+          <span
+            ><a class="socialmedia" href="#socials"
+              ><i class="fa-brands fa-youtube"></i></a
+          ></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
