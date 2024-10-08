@@ -70,10 +70,10 @@
 
       <input type="checkbox" id="toggle" class="toggle" />
       <label for="toggle" class="fa-solid fa-bars"></label>
-
+    
       <a href="#" class="logo">3legant.</a>
 
-      <nav class="navbar" style="width: 50%; padding: 5%">
+      <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#shop">Shop</a>
         <a href="#product">Product</a>
@@ -130,25 +130,27 @@
     <!-- HEADING AND SMALL PARA ENDS HERE -->
 
     <!-- PRODUCT CATEGORIES SECTION STARTS HERE -->
-
-    <section class="ourproducts">
-      <a class="product" href="#LIVINGROOM">
-        <img src="./product1.jpg" />
-        <h4 class="written">Living Room</h4>
-        <p>Shop Now</p>
-      </a>
-
-      <a class="product" href="#BEDROOM">
-        <img src="./product2.jpg" />
-        <h4 class="written">Bedroom</h4>
-        <p>Shop Now</p>
-      </a>
-
-      <a class="product" href="#KITCHEN">
-        <img src="./product3.png" />
-        <h4 class="written">Kitchen</h4>
-        <p>Shop Now</p>
-      </a>
+    <section class="responsive-product-section">
+      <div class="image-container">
+        <div class="image-box">
+          <a href="#">
+            <img src="product1.jpg" alt="Image 1" />
+            <div class="text-on-img">Living Room <br>Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+        <div class="image-box">
+          <a href="#">
+            <img src="product2.jpg" alt="Image 2" />
+            <div class="text-on-img">Bedroom<br>Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+        <div class="image-box">
+          <a href="#">
+            <img src="product3.png" alt="Image 3" />
+            <div class="text-on-img">Kitchen <br>Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- PRODUCT CATEGORY ENDS HERE -->
@@ -297,7 +299,8 @@
 
     <!-- SERVICES SECTION STARTS HERE -->
 
-    <section class="services">
+    <section class="services--">
+      <div class="services">
       <div class="service">
         <i class="fa-solid fa-truck-fast"></i>
         <p class="shipping">Free Shipping</p>
@@ -317,6 +320,7 @@
         <i class="fa-solid fa-phone"></i>
         <p class="shipping">24/7 Support</p>
         <p class="servicess">Phone and Email support</p>
+      </div>
       </div>
     </section>
 
@@ -364,37 +368,31 @@
 
     <!-- ARTICLE SECTION STARTS HERE -->
 
-    <section class="ourproducts">
-      <div class="product">
-        <a href="#ARTICLE1">
-          <img src="./article1.jpg.jpg" />
-          <h4 class="written">7 ways to decor your home</h4>
-          <p style="font-weight: bold">
-            Read More <i class="fa-solid fa-arrow-right"></i>
-          </p>
-        </a>
-      </div>
-      <div class="product">
-        <a href="#ARTICLE2">
-          <img src="./article1.jpg.jpg" />
-          <h4 class="written">Kitchen Organization</h4>
-          <p style="font-weight: bold">
-            Read More <i class="fa-solid fa-arrow-right"></i>
-          </p>
-        </a>
-      </div>
-      <div class="product">
-        <a href="#ARTICLE3">
-          <img src="./article3.jpg.jpg" />
-          <h4 class="written">Decor your bedroom</h4>
-          <p style="font-weight: bold">
-            Read More <i class="fa-solid fa-arrow-right"></i>
-          </p>
-        </a>
-      </div>
-    </section>
+    
+      <article>
+        <div class="image-container">
+          <div class="image-box">
+            <a href="#">
+              <img src="article1.jpg.jpg" alt="Image 1" />
+              <div class="text-on-img article-text">7 ways to decor your home <br><em>Read More</em> <i class="fa-solid fa-arrow-right"></i></div>
+            </a>
+          </div>
+          <div class="image-box">
+            <a href="#">
+              <img src="article2.jpg.jpg" alt="Image 2" />
+              <div class="text-on-img article-text">Kitchen Organization<br><em>Read More</em> <i class="fa-solid fa-arrow-right"></i></div>
+            </a>
+          </div>
+          <div class="image-box">
+            <a href="#">
+              <img src="article3.jpg.jpg" alt="Image 3" />
+              <div class="text-on-img article-text">Decor your bedroom <br><em>Read More</em><i class="fa-solid fa-arrow-right"></i></div>
+            </a>
+          </div>
+        </div>
+      </article>
 
-    <!-- ARTICLE SECTION STARTS HERE -->
+    <!-- ARTICLE SECTION ENDS HERE -->
 
     <!-- NEWSLETTER STARTS HERE -->
     <section class="newsletter">
