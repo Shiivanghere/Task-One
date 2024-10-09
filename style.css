@@ -556,86 +556,6 @@ THINGS LEFT ARE -
 
 /* OFFERS AVAILABLE STYLING ENDS HERE */
 
-/* NEWSLETTER STYLING STARTS HERE */
-
-.newsletter{
-    margin-top: 2rem;
-    box-shadow: 2px 2px 2px grey;
-}
-
-.imageholder2{
-    width: 100%;
-    background-color: white;
-    position: relative;
-    display: inline-block;
-}
-
-.newsimage{
-    width: 100%;
-    height: 30rem;
-}
-
-.join{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    margin: 1rem;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-  }
-
-  .signupdeals{
-    position: absolute;
-    margin: 1rem;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(76, 68, 68);
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.5rem; 
-    border-radius: 5px; 
-}
-
-   .signup {
-    border-bottom: 2px black double;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(128, 118, 118);
-    font-size: 1.2rem;
-    font-weight: bold;
-    background-color: rgba(255, 254, 254, 0.5); 
-    padding: 0.5rem; 
-    border-radius: 5px; 
-  }
-
-  .btn {
-    border-bottom:2px black double;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    color: black;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: white;
-    padding: 0.3rem; 
-    border-radius: 5px; 
-  }
-
-  .btn:active{
-    transform: scale(0.4,0.4);
-  }
-
-  /* NEWSLETTER STYLING ENDS HERE */
-
 
   /* FOOTER STARTS HERE */
 
@@ -798,4 +718,47 @@ THINGS LEFT ARE -
     }
   }
 
-  /* PAGE IMPROVEMENTS ENDS HERE FOR NOW */
+  
+
+/* NEWSLETTER STYLING STARTS HERE AGAIN FOR FURTHER IMPROVEMENTS */
+
+  .signup-news {
+    background-image: url('./newsletter.jpg');
+    height: 50vh;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.signup-news h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.signup-news p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.signup-news input[type="email"] {
+    padding: 0.5em;
+    border-radius: 1rem;
+    width: 25rem;
+    margin-bottom: 1em;
+    text-transform: none;
+}
+.signup-news button {
+    padding: 0.7em 1.5em;
+    background-color: #aea9a8;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* NEWSLETTER STYLING ENDS HERE */

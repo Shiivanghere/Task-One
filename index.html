@@ -6,7 +6,7 @@
     <title>COMPLETE RESPONSIVE WEBSITE</title>
     <style>
       .discount {
-        position: sticky;
+        /* position: sticky; */
         height: 40px;
         display: flex;
         justify-content: center;
@@ -58,7 +58,7 @@
           /></svg>30% off storewide -- LIMITED TIME !</span
       >
       <pre></pre>
-      <a href="#" class="offer"
+      <a href="#shop" class="offer"
         >Shop Now <i class="fa-solid fa-arrow-right"></i
       ></a>
     </div>
@@ -70,7 +70,7 @@
 
       <input type="checkbox" id="toggle" class="toggle" />
       <label for="toggle" class="fa-solid fa-bars"></label>
-    
+
       <a href="#" class="logo">3legant.</a>
 
       <nav class="navbar">
@@ -130,24 +130,30 @@
     <!-- HEADING AND SMALL PARA ENDS HERE -->
 
     <!-- PRODUCT CATEGORIES SECTION STARTS HERE -->
-    <section class="responsive-product-section">
+    <section class="responsive-product-section" id="product">
       <div class="image-container">
         <div class="image-box">
           <a href="#">
             <img src="product1.jpg" alt="Image 1" />
-            <div class="text-on-img">Living Room <br>Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+            <div class="text-on-img">
+              Living Room <br />Shop Now <i class="fa-solid fa-arrow-right"></i>
+            </div>
           </a>
         </div>
         <div class="image-box">
           <a href="#">
             <img src="product2.jpg" alt="Image 2" />
-            <div class="text-on-img">Bedroom<br>Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+            <div class="text-on-img">
+              Bedroom<br />Shop Now <i class="fa-solid fa-arrow-right"></i>
+            </div>
           </a>
         </div>
         <div class="image-box">
           <a href="#">
             <img src="product3.png" alt="Image 3" />
-            <div class="text-on-img">Kitchen <br>Shop Now <i class="fa-solid fa-arrow-right"></i></div>
+            <div class="text-on-img">
+              Kitchen <br />Shop Now <i class="fa-solid fa-arrow-right"></i>
+            </div>
           </a>
         </div>
       </div>
@@ -157,7 +163,7 @@
 
     <!-- NEW ARRIVALS HEADING SECTION STARTS HERE -->
 
-    <div class="texthold">
+    <div class="texthold" id="shop">
       <h1 class="largeheading">New <br />Arrivals</h1>
       <p class="para" style="text-decoration: underline; font-weight: bold">
         <a class="offer" href="#moreproducts"
@@ -301,26 +307,26 @@
 
     <section class="services--">
       <div class="services">
-      <div class="service">
-        <i class="fa-solid fa-truck-fast"></i>
-        <p class="shipping">Free Shipping</p>
-        <p class="servicess">Orders above $200</p>
-      </div>
-      <div class="service">
-        <i class="fa-solid fa-money-bill"></i>
-        <p class="shipping">Money-back</p>
-        <p class="servicess">30 days guarantee</p>
-      </div>
-      <div class="service">
-        <i class="fa-solid fa-lock"></i>
-        <p class="shipping">Secure Payments</p>
-        <p class="servicess">Secured by Stripe</p>
-      </div>
-      <div class="service">
-        <i class="fa-solid fa-phone"></i>
-        <p class="shipping">24/7 Support</p>
-        <p class="servicess">Phone and Email support</p>
-      </div>
+        <div class="service">
+          <i class="fa-solid fa-truck-fast"></i>
+          <p class="shipping">Free Shipping</p>
+          <p class="servicess">Orders above $200</p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-money-bill"></i>
+          <p class="shipping">Money-back</p>
+          <p class="servicess">30 days guarantee</p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-lock"></i>
+          <p class="shipping">Secure Payments</p>
+          <p class="servicess">Secured by Stripe</p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-phone"></i>
+          <p class="shipping">24/7 Support</p>
+          <p class="servicess">Phone and Email support</p>
+        </div>
       </div>
     </section>
 
@@ -368,47 +374,93 @@
 
     <!-- ARTICLE SECTION STARTS HERE -->
 
-    
-      <article>
-        <div class="image-container">
-          <div class="image-box">
-            <a href="#">
-              <img src="article1.jpg.jpg" alt="Image 1" />
-              <div class="text-on-img article-text">7 ways to decor your home <br><em>Read More</em> <i class="fa-solid fa-arrow-right"></i></div>
-            </a>
-          </div>
-          <div class="image-box">
-            <a href="#">
-              <img src="article2.jpg.jpg" alt="Image 2" />
-              <div class="text-on-img article-text">Kitchen Organization<br><em>Read More</em> <i class="fa-solid fa-arrow-right"></i></div>
-            </a>
-          </div>
-          <div class="image-box">
-            <a href="#">
-              <img src="article3.jpg.jpg" alt="Image 3" />
-              <div class="text-on-img article-text">Decor your bedroom <br><em>Read More</em><i class="fa-solid fa-arrow-right"></i></div>
-            </a>
-          </div>
+    <article id="articlessss">
+      <div class="image-container">
+        <div class="image-box">
+          <a href="#">
+            <img src="article1.jpg.jpg" alt="Image 1" />
+            <div class="text-on-img article-text">
+              7 ways to decor your home <br /><em>Read More</em>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
         </div>
-      </article>
-
-    <!-- ARTICLE SECTION ENDS HERE -->
-
-    <!-- NEWSLETTER STARTS HERE -->
-    <section class="newsletter">
-      <div class="imageholder2">
-        <img src="./newsletter2.jpg" class="newsimage" />
-        <div class="join">Join Our Newsletter</div>
-        <div class="signupdeals">
-          Sign up for deals , new products and promotions
+        <div class="image-box">
+          <a href="#">
+            <img src="article2.jpg.jpg" alt="Image 2" />
+            <div class="text-on-img article-text">
+              Kitchen Organization<br /><em>Read More</em>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
         </div>
-        <span class="signup">
-          <i class="fa-regular fa-envelope"></i>
-          <input type="email" placeholder="Email Address" />
-        </span>
-        <button class="btn">Sign Up</button>
+        <div class="image-box">
+          <a href="#">
+            <img src="article3.jpg.jpg" alt="Image 3" />
+            <div class="text-on-img article-text">
+              Decor your bedroom <br /><em>Read More</em
+              ><i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
       </div>
-    </section>
+    </article>
+
+  <!-- NEWSLETTER SECTION STARTS HERE -->
+
+    <div class="signup-news">
+      <h1>Join Our Newsletter</h1>
+      <p>Sign up for deals , new products and promotions</p>
+      <form id="signupForm">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        /><br />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- INCLUDING EmailJS SDK -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "IcTzGlqpv8z7H1tkY",
+      });
+   })();
+</script>
+
+    <script>
+      document
+        .getElementById("signupForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          var email = document.getElementById("email").value;
+          if (email) {
+           
+            emailjs
+              .send("service_gznpneb", "template_bynkjqs", {
+                
+                to_email: email,
+              })
+              .then(
+                function (response) {
+                  alert(
+                    "You have successfully signed up."
+                  );
+                  console.log("Failed to send email.Please try again later.", response.status, response.text);
+                },
+                function (error) {
+                  console.log("Failed to send email", error);
+                }
+              );
+          }
+        });
+    </script>
 
     <!-- NEWSLETTER SECTION ENDS HERE -->
 
@@ -426,10 +478,10 @@
           >
         </div>
         <div class="onetwo">
-          <span><a class="onetwolink" href="#home">Home</a></span>
+          <span><a class="onetwolink" href="#">Home</a></span>
           <span><a class="onetwolink" href="#shop">Shop</a></span>
           <span><a class="onetwolink" href="#product">Product</a></span>
-          <span><a class="onetwolink" href="#blog">Blog</a></span>
+          <span><a class="onetwolink" href="#articlessss">Blog</a></span>
           <span><a class="onetwolink" href="#contact">Contact Us</a></span>
         </div>
       </div>
@@ -448,7 +500,7 @@
             ><a class="privacyandterm" href="#termsofuse">Terms of Use</a></span
           >
         </div>
-        <div class="twotwo">
+        <div class="twotwo" id="contact">
           <span
             ><a class="socialmedia" href="#socials"
               ><i class="fa-brands fa-instagram"></i></a
